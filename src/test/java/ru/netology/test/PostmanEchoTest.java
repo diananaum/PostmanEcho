@@ -2,7 +2,6 @@ package ru.netology.test;
 
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.Test;
-
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.post;
 import static org.hamcrest.Matchers.*;
