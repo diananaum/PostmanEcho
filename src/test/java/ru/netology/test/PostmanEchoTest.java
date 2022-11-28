@@ -24,8 +24,8 @@ public class PostmanEchoTest {
                 .statusCode(200)
                 .contentType(ContentType.JSON)
                 .log().all()
-                .body("json.name", equalTo(321))
-                .body("json.job", equalTo("AQ"))
+                .body("json.name", equalTo(123))
+                .body("json.job", equalTo("QA"))
         ;
     }
 }
